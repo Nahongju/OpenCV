@@ -53,8 +53,9 @@ ix, iy = -1, -1
    print('마지막 좌표: ', x, ', ', y, ')')
  ```
  - 직선 그리기 : cv2.line(img, pt1, pt2, color, [, thickness [, lineType [, shift]]])
+ 
  |인수|설명|
- |:--:|:--|
+ |:---:|:---|
  |img|이미지 파일|
  |pt1|시작점 좌표 (x, y)|
  |pt2|종료점 좌표 (x, y)|
