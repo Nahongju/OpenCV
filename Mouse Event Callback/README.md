@@ -53,7 +53,6 @@ ix, iy = -1, -1
    print('마지막 좌표: ', x, ', ', y, ')')
  ```
  - 직선 그리기 : cv2.line(img, pt1, pt2, color, [, thickness [, lineType [, shift]]])
- 
  <table>
   <tr>
    <th>인수</th>
@@ -107,10 +106,7 @@ ix, iy = -1, -1
    <td> shift</td>
    <td>마우스 포인터 위치와 실제 그려지는 위치와의 차이, default 0</td>
   </tr>
-  </
- </table>
-
-  
+ </table> 
   
   #### 4. 마우스로 선을 그릴 창 만들기
    - Numpy 배열을 통해 img 생성
