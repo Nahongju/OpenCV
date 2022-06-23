@@ -54,19 +54,58 @@ ix, iy = -1, -1
  ```
  - 직선 그리기 : cv2.line(img, pt1, pt2, color, [, thickness [, lineType [, shift]]])
  
- |인수|설명|
- |:---:|:---|
- |img|이미지 파일|
- |pt1|시작점 좌표 (x, y)|
- |pt2|종료점 좌표 (x, y)|
- |color|색상 (B, G, R), 0 ~ 255|
- |thickness|선 두께 (default 1)|
- |lineType|선 종류 (default cv2.Line_8)|
- ||LINE_8|8-connected line|
- 
  <table>
   <tr>
    <th>인수</th>
+   <th>설명</th>
  </tr>
  
+ <tbody>
+  <tr>
+   <td>img</td>
+   <td>이미지 파일</td>
+  </tr>
+  
+  <tr>
+   <td>pt1</td>
+   <td>시작점 좌표 (x, y)</td>
+  </tr>
+  
+  <tr>
+   <td>pt2</td>
+   <td>종료점 좌표 (x, y)</td>
+  </tr>
+  
+  <tr>
+   <td>color</td>
+   <td>색상 (B, G, R), 0~255</td>
+  </tr>
+  
+  <tr>
+   <td>thickness</td>
+   <td>선 두께, default 1</td>
+  </tr>
+  
+  <tr>
+   <td rowspan = "4">lineType</td>
+   <td>선 종류, default cv2.Line_8</td>
+  </tr>
+  
+  <tr>
+   <td>LINE_8 : 8-connected line</td>
+  </tr>
+  
+  <tr>
+   <td>LINE_4 : 4-connected line</td>
+  </tr>
+  
+  <tr>
+   <td>LINE_AA : antialiased line</td>
+  </tr>
+  
+  <tr>
+   <td> shift</td>
+   <td>마우스 포인터 위치와 실제 그려지는 위치와의 차이, default 0</td>
+  </tr>
+  </
  </table>
