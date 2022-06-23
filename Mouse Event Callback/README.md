@@ -61,3 +61,5 @@ ix, iy = -1, -1
  |pt2|종료점 좌표 (x, y)|
  |color|색상 (B, G, R), 0 ~ 255|
  |thickness|선 두께 (default 1)|
+ |lineType|선 종류 (default cv2.Line_8)|
+ ||LINE_8|8-connected line|
