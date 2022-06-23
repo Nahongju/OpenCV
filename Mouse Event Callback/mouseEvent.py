@@ -18,6 +18,9 @@ def drawing(event, x, y, flags, param):
       cv2.imshow('image', img)
       ix, iy = x, y
       
+   elif event = cv2.EVENT_LBUTTONUP:
+    print('마지막 좌표: (', x, ',', y, ')')
+      
 img = np.ones((300, 300, 3), dtype = np.uint8)
 cv2.namedWindow('image')
 cv2.setMouseCallback('image', onMouse, img)
