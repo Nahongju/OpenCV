@@ -209,3 +209,5 @@ ix, iy = -1, -1
   cv2.destroyAllWindows()
   ```
   
+#### 5. 실행 결과
+![image](https://user-images.githubusercontent.com/44049699/175231714-d8d0364a-dfcd-4b5e-8a80-addc31895521.png)
