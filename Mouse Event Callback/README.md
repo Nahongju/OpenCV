@@ -110,6 +110,8 @@ ix, iy = -1, -1
   </
  </table>
 
+  
+  
   #### 4. 마우스로 선을 그릴 창 만들기
    - Numpy 배열을 통해 img 생성
    - img 창의 이름을 'image'로 설정 후 해당 창에 MouseCallback 함수 
