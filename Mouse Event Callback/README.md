@@ -63,3 +63,10 @@ ix, iy = -1, -1
  |thickness|선 두께 (default 1)|
  |lineType|선 종류 (default cv2.Line_8)|
  ||LINE_8|8-connected line|
+ 
+ <table>
+  <tr>
+   <th>인수</th>
+ </tr>
+ 
+ </table>
