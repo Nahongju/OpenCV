@@ -24,10 +24,10 @@ ix, iy = -1, -1
  
  |인수|설명|
  |:---:|:---|
- |event|마우스 이벤트 종류, **cv2.EVENT_**로 시작|
+ |event|마우스 이벤트 종류, <span style="font-weight:bold">cv2.EVENT_</span>로 시작|
  |x|마우스 이벤트가 발생한 x 좌표|
  |y|마우스 이벤트가 발생한 y 좌표|
- |flags|마우스 이벤트 발생 시 상태, **cv2.EVENT_FLAG_**로 시작|
+ |flags|마우스 이벤트 발생 시 상태, cv2.EVENT_FLAG_로 시작|
  |param|cv2.setMouseCallbak() 함수에서 설정한 data|
  
  
