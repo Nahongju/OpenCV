@@ -1,5 +1,4 @@
 import cv2
-import numpy as np
 
 # 임계값 지정 및 비트연산
 def bitcal(src1, src2, x, y, w, h):
